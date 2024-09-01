@@ -56,6 +56,7 @@ public class AlchemistCauldronRecipeRegistry {
     /**
      * Searches through registered recipes, and returns the resulting item or ItemStack.EMPTY if there are no matches.
      * Input without the required count will return negative, and the result can have a count > 1
+     * TODO this probably should be removed. Completely unused.
      */
     public static ItemStack getOutput(ItemStack input, ItemStack ingredient, boolean consumeOnSucces) {
         if (input.isEmpty() || ingredient.isEmpty()) return ItemStack.EMPTY;

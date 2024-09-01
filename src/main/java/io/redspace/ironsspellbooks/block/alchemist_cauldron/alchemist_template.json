@@ -1,0 +1,19 @@
+{
+  "type": "irons_spellbooks:cauldron",
+  "ingredients": [
+    {
+      "input": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "base": "minecraft:nether_wart",
+      "count": 1
+    }
+  ],
+  "consume_on_success": false,
+  "result": {
+    "item": "irons_spellbooks:custom_potion",
+    "count": 1,
+    "chance": 1.0
+  }
+}

@@ -81,6 +81,10 @@ dependencies {
     // MIXINS *****************************************************************************************************
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 
+    // DEV ********************************************************************************************************
+    //for dev purposes only.
+    implementation 'com.mojang:brigadier:1.0.18'
+
     // GECKOLIB ***************************************************************************************************
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_version}")
 
@@ -169,6 +173,8 @@ dependencies {
     //    for ( File file : fileTree(dir: 'libs', include: '*.jar') ) {
     //        runtimeOnly files(file)
     //    }
+
+
 }
 
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']
